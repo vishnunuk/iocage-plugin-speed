@@ -1,7 +1,7 @@
 {
     "name": "openspeedtest",
     "release": "11.3-RELEASE",
-    "artifact": "https://github.com/vishnunuk/plugin.git",
+    "artifact": "https://github.com/vishnunuk/iocage-plugin-speed.git",
     "properties": {
         "nat": 1,
         "nat_forwards": "tcp(80:8000)"
