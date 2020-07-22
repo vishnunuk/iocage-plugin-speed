@@ -44,7 +44,7 @@ http {
 
         listen   8080;
         listen   3000;
-        root /usr/local/openspeedtest/www/;
+        root /usr/local/www/;
         index index.html;
         server_name localhost;
 
