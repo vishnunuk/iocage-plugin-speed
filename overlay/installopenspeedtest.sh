@@ -44,7 +44,7 @@ http {
 
         listen   8080;
         listen   3000;
-        root /usr/local/www/;
+        root /usr/local/www/
         index index.html;
         server_name localhost;
 
@@ -89,5 +89,7 @@ if ($request_method = OPTIONS ) {
 }
 " >> /usr/local/etc/nginx/nginx.conf
 
+
+  echo 'nginx_enable="YES"' >> /etc/rc.conf
     # Start services
     service nginx start

@@ -5,8 +5,8 @@ echo "After installation, please mount your pool inside the jail to /mnt/fnpool"
 echo "A daily crontab has been installed to index the storage pool. If time period is not desirable, enter the jail and run "crontab -e" to modify."
 
 # Run bash script to install
-chmod +x /installopenspeedtest.sh
-/usr/local/bin/bash /installopenspeedtest.sh
+chmod +x /root/installopenspeedtest.sh
+/usr/local/bin/bash /root/installopenspeedtest.sh
 
 echo "Installing Diskover..." >> /PLUGIN_INFO
 echo "After installation, please mount your pool inside the jail to /mnt/fnpool" >> /root/PLUGIN_INFO
