@@ -44,7 +44,7 @@ http {
 
         listen   8080;
         listen   3000;
-        root /usr/local/www/
+        root /usr/local/root/www/
         index index.html;
         server_name localhost;
 

@@ -7,7 +7,8 @@
         "nat_forwards": "tcp(80:8000)"
     },
     "pkgs": [
-        "nginx"
+        "nginx",
+        "bash"
     ],
     "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
     "fingerprints": {
